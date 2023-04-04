@@ -20,14 +20,14 @@ let projects: Project[] = [
 		name: "Next JS Blog",
 		img: "https://i.imgur.com/o7Df8Um.png",
 		github: "https://github.com/ziwei531/next-blog",
-		demo: "next-blog-ziwei531.vercel.app",
+		demo: "nhttps://next-blog-ziwei531.vercel.app",
 	},
 	{
 		id: 3,
 		name: "Cyclistic Data Analysis Project",
 		img: "https://i.imgur.com/iDssqbP.png",
 		github: "https://github.com/ziwei531/cyclistic-analysis",
-		demo: "wzw-portfolio.netlify.app/case_study",
+		demo: "https://wzw-portfolio.netlify.app/case_study",
 	},
 ];
 
