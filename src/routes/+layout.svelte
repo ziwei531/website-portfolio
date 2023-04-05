@@ -43,12 +43,14 @@
 		<a href="/">Home</a>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
+		<a target="_blank" href="https://flowcv.com/resume/qsrj03pfkd">Resume</a>
 	{/if}
 
 	{#if !$isMobile}
 		<a href="/">Home</a>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
+		<a target="_blank" href="https://flowcv.com/resume/qsrj03pfkd">Resume</a>
 	{/if}
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<i on:click={handleToggle} class="menu-toggler fa fa-bars" />
