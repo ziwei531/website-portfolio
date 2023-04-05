@@ -15,17 +15,20 @@
 		<div class="skill-container">
 			<h1>Data Analytic Skills</h1>
 			<p>
-				This is because I've taken courses in Data Analytics and also majored in
-				Data Science for my CS Module. Hence, I am familiar with Python and R.
+				This is because I've taken courses in <a
+					href="https://www.coursera.org/account/accomplishments/specialization/certificate/T4TCWZ7G4V4P"
+					target="_blank">Data Analytics</a
+				> and also majored in Data Science for my CS Module. Hence, I possess an
+				analytical mind and familiar with R and Python to draw insights from data.
 			</p>
 		</div>
 		<div class="skill-container">
 			<h1>Data Visualization</h1>
 			<p>
 				As I've taken both data visualization module in my university in
-				addition to a few data analytics courses online, I am hence quite
-				familiar with generating data visualizations that provide intriguing
-				insights
+				addition to the data analytics courses online, I am hence quite familiar
+				with generating useful and audience-friendly data visualizations that
+				provide intriguing insights
 			</p>
 		</div>
 	</div>
@@ -62,6 +65,12 @@
 		color: #1f2937;
 		filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
 			drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+	}
+
+	a {
+		text-decoration: none;
+		color: var(--brand-400);
+		font-weight: 600;
 	}
 
 	@media only screen and (max-width: 1024px) {
