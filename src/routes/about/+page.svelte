@@ -18,6 +18,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		padding: 1rem;
 		height: 100vh;
 	}
 
@@ -44,5 +45,15 @@
 		transition: all;
 		transition-duration: 0.3s;
 		transition-timing-function: ease-out;
+	}
+
+	@media only screen and (max-width: 768px) {
+		.container h1 {
+			font-size: 1.5rem;
+			text-align: center;
+		}
+		.list li a {
+			font-size: 1rem;
+		}
 	}
 </style>
