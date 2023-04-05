@@ -13,6 +13,9 @@
 
 <footer>
 	<p>© {year} Whoong Zi Wei</p>
+	<p>
+		Thank you for viewing my website! This website is created with Sveltekit 😎
+	</p>
 </footer>
 
 <style>
@@ -68,5 +71,15 @@
 		color: #fff;
 		font-weight: 900;
 		font-size: 1.5rem;
+	}
+
+	@media only screen and (max-width: 768px) {
+		/* nav {
+			justify-content: center;
+		} */
+
+		footer p {
+			font-size: 1rem;
+		}
 	}
 </style>
