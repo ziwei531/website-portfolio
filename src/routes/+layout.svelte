@@ -152,8 +152,6 @@
 
 		nav {
 			flex-direction: column;
-			position: relative;
-			transition: height 0.3s ease-out;
 		}
 
 		.menu-toggler {
