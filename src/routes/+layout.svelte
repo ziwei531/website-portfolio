@@ -1,12 +1,57 @@
 <script>
+	import { onMount } from "svelte";
+	import { writable } from "svelte/store";
+
+	const isMobile = writable(false);
+
+	onMount(() => {
+		// set the initial value of isMobile based on the screen width
+		const handleResize = () => {
+			isMobile.set(window.innerWidth < 768);
+		};
+
+		handleResize();
+
+		window.addEventListener("resize", handleResize);
+
+		return () => {
+			window.removeEventListener("resize", handleResize);
+		};
+	});
+
 	const now = new Date();
 	const year = now.getFullYear();
+
+	let toggle = false; // false = closed, true = open
+	function handleToggle() {
+		toggle = !toggle;
+	}
 </script>
 
+<!--Hamburger menu import-->
+<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+
 <nav>
-	<a href="/">Home</a>
-	<a href="/projects">Projects</a>
-	<a href="/about">About</a>
+	<div class="logo">
+		<a href="/">Whoong Zi Wei</a>
+	</div>
+
+	{#if toggle && $isMobile}
+		<a href="/">Home</a>
+		<a href="/projects">Projects</a>
+		<a href="/about">About</a>
+	{/if}
+
+	{#if !$isMobile}
+		<a href="/">Home</a>
+		<a href="/projects">Projects</a>
+		<a href="/about">About</a>
+	{/if}
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<i on:click={handleToggle} class="menu-toggler fa fa-bars" />
 </nav>
 
 <slot />
@@ -36,6 +81,13 @@
 		padding: 0;
 	}
 
+	.menu-toggler {
+		display: none;
+		width: 1.5rem;
+		height: 1.5rem;
+		cursor: pointer;
+	}
+
 	nav {
 		display: flex;
 		justify-content: flex-end;
@@ -53,6 +105,10 @@
 		text-decoration: none;
 		cursor: pointer;
 		padding-right: 30px;
+	}
+
+	nav .logo {
+		margin-right: auto;
 	}
 
 	nav a:hover {
@@ -86,6 +142,26 @@
 		nav a {
 			padding-right: 1rem;
 			padding-left: 1rem;
+		}
+		/* 
+			nav .logo {
+				margin-right: 0;
+			} 
+			this will make it centered
+		*/
+
+		nav {
+			flex-direction: column;
+			position: relative;
+			transition: height 0.3s ease-out;
+		}
+
+		.menu-toggler {
+			position: absolute;
+			top: 1rem;
+			right: 1rem;
+			display: block;
+			color: #ebf8ff;
 		}
 	}
 </style>
