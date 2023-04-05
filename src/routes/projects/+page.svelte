@@ -3,6 +3,9 @@
 	import { each } from "svelte/internal";
 </script>
 
+<h1 class="project-title">
+	Here are my projects that I've done so far as a student
+</h1>
 <div class="card-grid">
 	{#each projects as project}
 		<article class="card">
@@ -23,6 +26,20 @@
 
 <style>
 	/* Im putting comments here for my ownself's reference. Please ignore*/
+
+	.project-title {
+		font-size: 2rem;
+		padding: 1rem;
+		text-align: center;
+		filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+			drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+	}
+
+	@media only screen and (max-width: 768px) {
+		.project-title {
+			font-size: 1.5rem;
+		}
+	}
 
 	.center {
 		text-align: center;
@@ -63,7 +80,7 @@
 
 	.card-buttons > button > a {
 		text-decoration: none;
-		color: #075985;
+		color: var(--brand-400);
 		font-weight: 700;
 	}
 
