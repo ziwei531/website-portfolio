@@ -4,7 +4,7 @@
 			<h1>About me 👨‍💻</h1>
 		</div>
 
-		<p>
+		<p class="about-text">
 			I am a computer science student in <a
 				target="_blank"
 				href="https://university.taylors.edu.my/en.html">Taylor's University</a
@@ -16,7 +16,7 @@
 			understanding the fundamentals of programming in general.
 		</p>
 
-		<p>
+		<p class="about-text">
 			If you are interested in giving me a chance to work for you, please don't
 			hesitate to contact me through the contact details below!
 		</p>
@@ -91,6 +91,10 @@
 		.container {
 			padding: 2rem;
 			height: 50%;
+		}
+
+		.about-text {
+			font-size: 0.8rem;
 		}
 
 		.row {
