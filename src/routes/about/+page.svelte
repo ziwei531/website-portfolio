@@ -5,12 +5,14 @@
 		</div>
 
 		<p>
-			I am a computer science student in Taylor's University. Aside from the
-			syllabus that all of us CS students typically take in my university, I
-			have taken upon myself to self-study quite a lot so as to stay relevant
-			with what the industry may be seeking. Historically, I have studied and
-			taken courses that enhanced my data science skills and also web
-			development skills, which have greatly benefited in me further
+			I am a computer science student in <a
+				target="_blank"
+				href="https://university.taylors.edu.my/en.html">Taylor's University</a
+			>. Aside from the syllabus that all of us CS students typically take in my
+			university, I have taken upon myself to self-study quite a lot so as to
+			stay relevant with what the industry may be seeking. Historically, I have
+			studied and taken courses that enhanced my data science skills and also
+			web development skills, which have greatly benefited in me further
 			understanding the fundamentals of programming in general.
 		</p>
 
@@ -73,12 +75,12 @@
 		justify-content: center;
 	}
 
-	.row a {
+	a {
 		color: var(--brand-400);
 		text-decoration: none;
 	}
 
-	.row a:hover {
+	a:hover {
 		color: var(--brand-300);
 		transition: all;
 		transition-duration: 0.3s;
