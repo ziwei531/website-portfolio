@@ -74,12 +74,18 @@
 	}
 
 	@media only screen and (max-width: 768px) {
-		/* nav {
-			justify-content: center;
-		} */
-
 		footer p {
 			font-size: 1rem;
+		}
+
+		nav {
+			justify-content: center;
+			align-items: center;
+		}
+
+		nav a {
+			padding-right: 1rem;
+			padding-left: 1rem;
 		}
 	}
 </style>
