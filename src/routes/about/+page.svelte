@@ -28,8 +28,12 @@
 						>whoong.ziwei@gmail.com</a
 					>
 				</p>
-				<p><a href="https://www.linkedin.com/in/whoong-zi-wei/">Linkedin</a></p>
-				<p><a href="https://github.com/ziwei531">Github</a></p>
+				<p>
+					<a target="_blank" href="https://www.linkedin.com/in/whoong-zi-wei/"
+						>Linkedin</a
+					>
+				</p>
+				<p><a target="_blank" href="https://github.com/ziwei531">Github</a></p>
 			</div>
 		</div>
 	</div>
