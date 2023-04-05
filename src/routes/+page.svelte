@@ -55,5 +55,10 @@
 		.main-container h2 {
 			font-size: 1rem;
 		}
+
+		.main-container > img {
+			margin: auto;
+			margin-top: 19px;
+		}
 	}
 </style>

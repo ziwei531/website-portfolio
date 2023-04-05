@@ -74,5 +74,12 @@
 		.inner-container {
 			grid-template-columns: 1fr;
 		}
+
+		.inner-container h1 {
+			font-size: 1.5rem;
+			text-align: center;
+		}
+
+        
 	}
 </style>

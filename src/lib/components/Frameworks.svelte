@@ -79,4 +79,14 @@
 		box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 		outline: 3px solid black;
 	}
+
+	@media only screen and (max-width: 768px) {
+		.container h1 {
+			font-size: 1rem;
+		}
+
+		.card-grid {
+			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		}
+	}
 </style>
