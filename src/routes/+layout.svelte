@@ -65,7 +65,10 @@
 <footer>
 	<p>© {year} Whoong Zi Wei</p>
 	<p>
-		Thank you for viewing my website! This website is created with Sveltekit 😎
+		Thank you for viewing my website! This <a
+			target="_blank"
+			href="https://github.com/ziwei531/internship-portfolio">website</a
+		> is created with Sveltekit 😎
 	</p>
 </footer>
 
@@ -133,6 +136,18 @@
 		color: #fff;
 		font-weight: 900;
 		font-size: 1.5rem;
+	}
+
+	footer a {
+		color: var(--brand-300);
+		text-decoration: none;
+	}
+
+	footer a:hover {
+		color: var(--brand-200);
+		transition: all;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-in-out;
 	}
 
 	@media only screen and (max-width: 768px) {
