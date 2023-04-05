@@ -79,6 +79,13 @@ let projects: Project[] = [
 		github: "https://github.com/ziwei531/fcc-tribute-website",
 		demo: "https://ziwei531.github.io/fcc-tribute-page/",
 	},
+	{
+		id: 11,
+		name: "Markdown Editor Demo",
+		img: "https://i.imgur.com/Gaudwo7.png",
+		github: "https://github.com/ziwei531/Markdown-Editor-Demo",
+		demo: "https://f4qflw-5173.csb.app/",
+	},
 ];
 
 export default projects;
