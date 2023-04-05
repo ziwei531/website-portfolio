@@ -40,10 +40,14 @@
 	</div>
 
 	{#if toggle && $isMobile}
-		<a href="/">Home</a>
-		<a href="/projects">Projects</a>
-		<a href="/about">About</a>
-		<a target="_blank" href="https://flowcv.com/resume/qsrj03pfkd">Resume</a>
+		<a on:click={handleToggle} href="/">Home</a>
+		<a on:click={handleToggle} href="/projects">Projects</a>
+		<a on:click={handleToggle} href="/about">About</a>
+		<a
+			on:click={handleToggle}
+			target="_blank"
+			href="https://flowcv.com/resume/qsrj03pfkd">Resume</a
+		>
 	{/if}
 
 	{#if !$isMobile}
