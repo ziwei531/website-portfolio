@@ -1,3 +1,8 @@
+<script>
+	const now = new Date();
+	const year = now.getFullYear();
+</script>
+
 <nav>
 	<a href="/">Home</a>
 	<a href="/projects">Projects</a>
@@ -5,6 +10,10 @@
 </nav>
 
 <slot />
+
+<footer>
+	<p>© {year} Whoong Zi Wei</p>
+</footer>
 
 <style>
 	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
@@ -28,21 +37,36 @@
 		display: flex;
 		justify-content: flex-end;
 		gap: 1rem;
-		align-items: center;
 		padding: 1rem;
 		background: #0369a1;
 		font-weight: 900;
+		position: sticky;
+		top: 0;
+		z-index: 1;
 	}
 
 	nav a {
 		color: #fff;
 		text-decoration: none;
 		cursor: pointer;
+		padding-right: 30px;
 	}
 
 	nav a:hover {
 		color: #7dd3fc;
 		transition: all;
 		transition-duration: 0.6s;
+	}
+
+	footer {
+		padding: 1rem;
+		text-align: center;
+		background: var(--brand-400);
+	}
+
+	footer p {
+		color: #fff;
+		font-weight: 900;
+		font-size: 1.5rem;
 	}
 </style>
