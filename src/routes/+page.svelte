@@ -5,7 +5,7 @@
 
 <article class="main-container">
 	<div class="welcome-container">
-		<h1>Welcome to Whoong Zi Wei's Website!</h1>
+		<h1>Welcome to my Website!</h1>
 		<h2>I am computer science student aspiring to become a web developer</h2>
 	</div>
 	<img src="/images/profile-picture.jpg" alt="zi wei profile pic" />
@@ -39,6 +39,13 @@
 	h1 {
 		font-size: 3rem;
 		font-weight: 700;
+		color: #000;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		font-weight: 400;
 		color: #000;
 		text-align: center;
 	}

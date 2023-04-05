@@ -8,7 +8,7 @@
 			<h1>Web Development</h1>
 			<p>
 				I have at least 2 years of coding in websites in HTML, CSS, Javascript,
-				and React. Hence, I am quite familiar with the basics of web
+				and React. Hence, I have a very firm grasp on the fundementals in web
 				development.
 			</p>
 		</div>
@@ -79,7 +79,5 @@
 			font-size: 1.5rem;
 			text-align: center;
 		}
-
-        
 	}
 </style>
