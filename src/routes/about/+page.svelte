@@ -88,6 +88,12 @@
 	@media only screen and (max-width: 768px) {
 		.container {
 			padding: 2rem;
+			height: 50%;
+		}
+
+		.row {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
 		}
 	}
 </style>
