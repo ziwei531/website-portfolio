@@ -14,17 +14,6 @@
 			studied and taken courses that enhanced my data science skills and also
 			web development skills, which have greatly benefited in me further
 			understanding the fundamentals of programming in general.
-			<br />
-			<br />
-			As a computer science student that is approaching the end of my degree, I have
-			worked on and familiarized myself with various technologies. Hence, I have
-			gotten used to adapting and working with new technologies by independently
-			learning about them through either documentations or reliable instructional
-			video resources. As shown in my skillset section, I have worked on technologies
-			such as React, NodeJS, Svelte, and many more that are obviously NOT taught
-			by my university by default. Hopefully this demonstrates to you that I am willing
-			to learn and adapt to whatever technology that I may need to get familiar with
-			within your company.
 		</p>
 
 		<p class="about-text">
@@ -90,7 +79,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 1000px;
+		height: 100vh;
 	}
 
 	.about-container {
