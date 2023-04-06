@@ -25,10 +25,10 @@
 		<div class="skill-container">
 			<h1>Data Visualization</h1>
 			<p>
-				As I've taken both data visualization module in my university in
-				addition to the data analytics courses online, I am hence quite familiar
-				with generating useful and audience-friendly data visualizations that
-				provide intriguing insights
+				As I've taken both data visualization module in my university and data
+				analytics courses online, I am hence quite familiar with generating
+				useful and audience-friendly data visualizations that provide intriguing
+				insights
 			</p>
 		</div>
 	</div>
