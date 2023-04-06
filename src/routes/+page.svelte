@@ -3,6 +3,15 @@
 	import Frameworks from "$lib/components/Frameworks.svelte";
 </script>
 
+<svelte:head>
+	<title>Whoong Zi Wei</title>
+	<meta name="description" content="Whoong Zi Wei's personal website" />
+	<meta
+		name="keywords"
+		content="wzw, Whoong Zi Wei, Zi Wei, Whoong, Taylor's University, WZW"
+	/>
+</svelte:head>
+
 <article class="main-container">
 	<div class="welcome-container">
 		<h1>Welcome to my Website!</h1>
