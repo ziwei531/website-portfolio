@@ -32,13 +32,6 @@ let projects: Project[] = [
 		demo: "nhttps://next-blog-ziwei531.vercel.app",
 	},
 	{
-		name: "Cyclistic Data Analysis Project",
-		img: "https://i.imgur.com/iDssqbP.png",
-		github: "https://github.com/ziwei531/cyclistic-analysis",
-		demo: "https://wzw-portfolio.netlify.app/case_study",
-	},
-
-	{
 		name: "Documentation Website",
 		img: "https://i.imgur.com/pF77DjX.png",
 		github: "https://github.com/ziwei531/fcc-js-docs",
@@ -79,6 +72,12 @@ let projects: Project[] = [
 		img: "/images/Bellabeat.png",
 		github: "https://github.com/ziwei531/bellabeat-case-study",
 		demo: "https://ziwei531.github.io/bellabeat-case-study/",
+	},
+	{
+		name: "Cyclistic Data Analysis Project",
+		img: "https://i.imgur.com/iDssqbP.png",
+		github: "https://github.com/ziwei531/cyclistic-analysis",
+		demo: "https://wzw-portfolio.netlify.app/case_study",
 	},
 ];
 
