@@ -1,8 +1,8 @@
 interface Project {
 	name: string;
 	img: string;
-	github?: string;
-	demo?: string;
+	github: string;
+	demo: string;
 }
 
 //add all your projects here
