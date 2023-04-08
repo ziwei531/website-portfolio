@@ -86,6 +86,13 @@ let projects: Project[] = [
 		github: "https://github.com/ziwei531/Markdown-Editor-Demo",
 		demo: "https://f4qflw-5173.csb.app/",
 	},
+	{
+		id: 12,
+		name: "Bellabeat data Analyst Case Study",
+		img: "/images/Bellabeat.png",
+		github: "https://github.com/ziwei531/bellabeat-case-study",
+		demo: "https://ziwei531.github.io/bellabeat-case-study/",
+	},
 ];
 
 export default projects;
