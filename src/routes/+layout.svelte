@@ -28,6 +28,15 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Whoong Zi Wei</title>
+	<meta name="description" content="Whoong Zi Wei's personal website" />
+	<meta
+		name="keywords"
+		content="wzw, Whoong Zi Wei, Zi Wei, Whoong, Taylor's University, WZW"
+	/>
+</svelte:head>
+
 <!--Hamburger menu import-->
 <link
 	rel="stylesheet"
