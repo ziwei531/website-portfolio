@@ -59,7 +59,7 @@ let projects: Project[] = [
 		name: "Tribute Website",
 		img: "https://i.imgur.com/umCKSf6.png",
 		github: "https://github.com/ziwei531/fcc-tribute-website",
-		demo: "https://ziwei531.github.io/fcc-tribute-page/",
+		demo: "https://ziwei531.github.io/fcc-tribute-website/",
 	},
 	{
 		name: "Markdown Editor Demo",
