@@ -65,7 +65,7 @@ let projects: Project[] = [
 		name: "Markdown Editor Demo",
 		img: "https://i.imgur.com/Gaudwo7.png",
 		github: "https://github.com/ziwei531/Markdown-Editor-Demo",
-		demo: "https://f4qflw-5173.csb.app/",
+		demo: "https://markdown-editor-demo.vercel.app/",
 	},
 	{
 		name: "Bellabeat data Analyst Case Study",
