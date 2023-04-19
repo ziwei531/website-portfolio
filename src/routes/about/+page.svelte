@@ -1,3 +1,13 @@
+<script>
+	const whatsapp = () => {
+		window.open("https://wa.link/8slulx");
+	};
+
+	const email = () => {
+		window.open("mailto:whoong.ziwei@gmail.com");
+	};
+</script>
+
 <div class="container">
 	<div class="about-container">
 		<div class="header">
@@ -24,12 +34,8 @@
 		<div class="contact">
 			<h2>Contact me 📧</h2>
 			<div class="row">
-				<p>Phone Number: 010-9315538</p>
-				<p>
-					Email: <a target="_blank" href="mailto:whoong.ziwei@gmail.com"
-						>whoong.ziwei@gmail.com</a
-					>
-				</p>
+				<button on:click={whatsapp} class="contact-btn"> Whatsapp Link </button>
+				<button on:click={email} class="contact-btn"> Email </button>
 				<div class="link-container">
 					<a target="_blank" href="https://www.linkedin.com/in/whoong-zi-wei/">
 						<svg
@@ -46,8 +52,10 @@
 					</a>
 
 					<p>
-						<a target="_blank" href="https://www.linkedin.com/in/whoong-zi-wei/"
-							>Linkedin</a
+						<a
+							class="pure-link"
+							target="_blank"
+							href="https://www.linkedin.com/in/whoong-zi-wei/">Linkedin</a
 						>
 					</p>
 				</div>
@@ -66,7 +74,11 @@
 					>
 
 					<p>
-						<a target="_blank" href="https://github.com/ziwei531">Github</a>
+						<a
+							class="pure-link"
+							target="_blank"
+							href="https://github.com/ziwei531">Github</a
+						>
 					</p>
 				</div>
 			</div>
@@ -75,6 +87,23 @@
 </div>
 
 <style>
+	.contact-btn {
+		padding: 0.7rem;
+		border-radius: 0.5rem;
+		font-size: 1.1rem;
+		background-color: #bae6fd;
+		color: var(--brand-400);
+		font-weight: 700;
+	}
+
+	.contact-btn:hover {
+		background-color: #075985;
+		transition: all;
+		transition-duration: 0.5s;
+		color: white;
+		cursor: pointer;
+	}
+
 	.container {
 		display: flex;
 		align-items: center;
@@ -112,11 +141,11 @@
 	.row {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 1rem;
+		gap: 1.3rem;
 		justify-content: center;
 	}
 
-	a {
+	.pure-link {
 		color: var(--brand-400);
 		text-decoration: none;
 	}
@@ -126,7 +155,7 @@
 		transition: all 0.3s ease-in-out;
 	}
 
-	a:hover {
+	.pure-link:hover {
 		color: var(--brand-300);
 		transition: all;
 		transition-duration: 0.3s;
@@ -151,6 +180,7 @@
 		.row {
 			display: grid;
 			grid-template-columns: repeat(1, 1fr);
+			gap: 1rem;
 		}
 	}
 </style>
