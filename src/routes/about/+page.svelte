@@ -16,6 +16,7 @@
 
 		<p class="about-text">
 			I am a computer science student in <a
+				class="pure-link"
 				target="_blank"
 				href="https://university.taylors.edu.my/en.html">Taylor's University</a
 			>. Aside from the syllabus that all of us CS students typically take in my
