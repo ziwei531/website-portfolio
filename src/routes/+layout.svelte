@@ -37,18 +37,28 @@
 	/>
 
 	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
 	<script
 		async
 		src="https://www.googletagmanager.com/gtag/js?id=G-M5E9C42ZR3"
 	></script>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag("js", new Date());
+		try {
+			if (typeof window !== "undefined" && window) {
+				window.dataLayer = window.dataLayer || [];
+				function gtag() {
+					dataLayer.push(arguments);
+				}
+				gtag("js", new Date());
 
-		gtag("config", "G-M5E9C42ZR3");
+				gtag("config", "G-M5E9C42ZR3");
+
+				console.log("Google Analytics loaded successfully");
+			}
+		} catch (error) {
+			console.log("Failed to load Google Analytics");
+		}
 	</script>
 </svelte:head>
 
