@@ -37,6 +37,7 @@
 	/>
 
 	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
 	<script
 		async
 		src="https://www.googletagmanager.com/gtag/js?id=G-M5E9C42ZR3"
@@ -51,8 +52,6 @@
 				gtag("js", new Date());
 
 				gtag("config", "G-M5E9C42ZR3");
-
-				console.log("Google Analytics loaded successfully");
 			}
 		} catch (error) {
 			console.log("Failed to load Google Analytics");
