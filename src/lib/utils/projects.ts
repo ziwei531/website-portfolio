@@ -29,7 +29,7 @@ let projects: Project[] = [
 		name: "Next JS Blog",
 		img: "https://i.imgur.com/o7Df8Um.png",
 		github: "https://github.com/ziwei531/next-blog",
-		demo: "nhttps://next-blog-ziwei531.vercel.app",
+		demo: "https://next-blog-ziwei531.vercel.app",
 	},
 	{
 		name: "Documentation Website",
