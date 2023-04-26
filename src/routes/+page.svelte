@@ -19,7 +19,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 100vh;
+		min-height: 100vh;
 		gap: 1.5rem;
 	}
 
@@ -53,6 +53,10 @@
 	@media only screen and (max-width: 768px) {
 		.main-container {
 			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: auto;
+			padding-bottom: 3rem;
 		}
 
 		.main-container h1 {
@@ -65,7 +69,7 @@
 
 		.main-container > img {
 			margin: auto;
-			margin-top: 19px;
+			margin-top: 20px;
 		}
 	}
 </style>
