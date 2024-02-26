@@ -26,11 +26,6 @@
     function handleToggle() {
         toggle = !toggle;
     }
-
-    const resumeLink = "https://ziwei531.github.io/resumePdf-hosting/";
-
-    // export the store
-    export { isMobile, year, handleToggle, toggle, resumeLink };
 </script>
 
 <svelte:head>
@@ -77,14 +72,20 @@
         <a on:click={handleToggle} href="/">Home</a>
         <a on:click={handleToggle} href="/projects">Projects</a>
         <a on:click={handleToggle} href="/about">About</a>
-        <a target="_blank" href={resumeLink}>Resume</a>
+        <a
+            on:click={handleToggle}
+            target="_blank"
+            href="https://flowcv.com/resume/qsrj03pfkd">Resume</a
+        >
     {/if}
 
     {#if !$isMobile}
         <a href="/">Home</a>
         <a href="/projects">Projects</a>
         <a href="/about">About</a>
-        <a target="_blank" href={resumeLink}>Resume</a>
+        <a target="_blank" href="https://ziwei531.github.io/resumePdf-hosting/"
+            >Resume</a
+        >
     {/if}
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <i on:click={handleToggle} class="menu-toggler fa fa-bars" />
