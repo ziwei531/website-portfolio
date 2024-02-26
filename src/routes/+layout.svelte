@@ -28,9 +28,6 @@
     }
 
     const resumeLink = "https://ziwei531.github.io/resumePdf-hosting/";
-
-    // export the store
-    export { isMobile, year, handleToggle, toggle, resumeLink };
 </script>
 
 <svelte:head>
@@ -77,7 +74,7 @@
         <a on:click={handleToggle} href="/">Home</a>
         <a on:click={handleToggle} href="/projects">Projects</a>
         <a on:click={handleToggle} href="/about">About</a>
-        <a target="_blank" href={resumeLink}>Resume</a>
+        <a on:click={handleToggle} target="_blank" href={resumeLink}>Resume</a>
     {/if}
 
     {#if !$isMobile}
