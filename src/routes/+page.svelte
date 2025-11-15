@@ -8,7 +8,6 @@
 		<h1>Welcome to my Website!</h1>
 		<h2>I am computer science student aspiring to become a web developer</h2>
 	</div>
-	<img src="/images/profile-picture.jpg" alt="zi wei profile pic" />
 </article>
 
 <Skills />
